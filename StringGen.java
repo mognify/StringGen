@@ -24,7 +24,7 @@ public class StringGen {
 			String letter = String.valueOf(alphabet.charAt((int)((Math.random()*25)+1)));
 			System.out.print(letter);
 			try {
-			    Thread.sleep(300);                 //1000 milliseconds is one second.
+			    Thread.sleep(300);
 			} catch(InterruptedException ex) {
 			    Thread.currentThread().interrupt();
 			}

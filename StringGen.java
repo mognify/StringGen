@@ -28,6 +28,7 @@ public class StringGen {
 			} catch(InterruptedException ex) {
 			    Thread.currentThread().interrupt();
 			}
+			// from http://stackoverflow.com/questions/24591491/autoboxing-cant-convert-an-int-to-an-integer
 		}
 	}
 }

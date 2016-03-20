@@ -28,7 +28,6 @@ public class StringGen {
 			} catch(InterruptedException ex) {
 			    Thread.currentThread().interrupt();
 			}
-			// from http://stackoverflow.com/questions/3342651/how-can-i-delay-a-java-program-for-a-few-seconds
 		}
 	}
 }
